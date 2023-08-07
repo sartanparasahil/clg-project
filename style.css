@@ -95,6 +95,13 @@ body {
         position: relative;
         transition: .3s ease-in;
     }
+
+    .nav-link-logo {
+        width: 35px;
+        display: none;
+    
+    }
+
 }
 
 .nav-links a::before {
@@ -117,6 +124,8 @@ body {
 #cancel-btn {
     display: none;
 }
+
+
 
 /* nav media */
 @media (max-width:1260px) {
@@ -152,7 +161,7 @@ body {
         color: red;
         font-size: 2.5rem;
         position: absolute;
-        top: 25px;
+        top: 30px;
         right: 20px;
         cursor: pointer;
     }
@@ -171,7 +180,20 @@ body {
         box-shadow: 2px 2px 5px rgb(245, 245, 244, 0.2);
         transition: .3s ease-in;
     }
-    .nav-links ul.active{
+
+    .nav-links ul.active {
+        left: 0;
+    }
+
+    .nav-link-logo {
+        display: block;
+        cursor: pointer;
+        top: 30px;
+        right: 20px;
+       
+    }
+
+    .nav-link-logo.active{
         left: 0;
     }
 
