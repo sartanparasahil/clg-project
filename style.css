@@ -18,7 +18,6 @@
 }
 body{
     background-color: var(--bg-color);
-    background-image: url("picture\herobg.jpg");
 
 }
 .container {
@@ -30,9 +29,18 @@ body{
 html {
     font-size: 63%;
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden; 
 }
 
+::-webkit-scrollbar{
+    width: 4px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: red;
+}
+::-webkit-scrollbar-track{
+    background-color: #fff;
+}
 .flex {
     display: flex;
     align-items: center;
@@ -45,19 +53,6 @@ header{
     width: 100%;
     
 }
-
-/* .header{
-    position: fixed;
-    top :0;
-    left:0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* padding: 0 9%; */
-/* background-color: rgb(16, 16, 16); */
-/* width: 100%; */
-
 .header {
     width: 100%;
 }
@@ -133,14 +128,22 @@ header{
 
 /* hero-section */
 .hero{
-    width: 100%;
-    height: 80vh;
-    background-image: url("picture\gym.jpg");
+    /* width: 100%;
+    height: 100vh;
+    background-image: url("picture/herobg.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 
-    /* .hero-main{
+    .bg-img img{
+        width: 100%;
+        height: 150vh;
+        
+        object-fit: cover;
+    
+    }
+
+     .hero-main{
         position: relative;
 
         .hero-text{
@@ -150,7 +153,7 @@ header{
             transform: translate(-50%,-50%);
             color: #fff;
         }
-    } */
+    } 
     
 }
 
