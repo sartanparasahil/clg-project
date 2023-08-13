@@ -4,11 +4,11 @@ let cancel = document.getElementById("cancel-btn");
 
 const openmenu = () => {
     navlinks.classList.add("active");
-    navlogo.classList.add("active");
+    
 }
 const closemenu = () => {
     navlinks.classList.remove("active");
-    navlogo.classList.add("active");
+
 }
 
 menubar.addEventListener("click", openmenu);
