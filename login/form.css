@@ -197,6 +197,16 @@ form .txt_field {
         font-size: 9px;
     }
 }
+@media (max-width:768px){
+     .userlogo{
+        width: 8rem;
+        height: auto;
+        position: absolute;
+        top: -35px;
+        left: calc(50% - 30px);
+    }
+
+} 
 
 @media (max-width:425px) {
     html {
