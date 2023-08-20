@@ -33,7 +33,7 @@ html {
     width: 8rem;
     height: auto;
     position: absolute;
-    top: -50px;
+    top: -40px;
     left: calc(50% - 40px);
 }
 
@@ -201,5 +201,13 @@ form .txt_field {
 @media (max-width:425px) {
     html {
         font-size: 8px;
+    }
+
+    .userlogo{
+        width: 8rem;
+        height: auto;
+        position: absolute;
+        top: -35px;
+        left: calc(50% - 30px);
     }
 }
