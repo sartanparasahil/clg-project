@@ -11,32 +11,39 @@
         type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"> 
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 
 </head>
 
 <body>
 
-    <header class="header">
-        <div class="navbar flex">
-            <a href="#" class="logo">
-                <img src="picture\759ada3759e388b28c2299bd66e6b5f4-removebg-preview.png" alt="">
-                <h2>POWER <span>PLUS</span></h2> 
-            </a>
-            <i id="menu-btn" class="fas fa-bars"> </i>
-            <nav class="nav-links">
-                <ul class="flex" id="nav-item">
-                    <i id="cancel-btn" class="fa-solid fa-xmark"></i>
-                    <li><img src="picture\759ada3759e388b28c2299bd66e6b5f4-removebg-preview.png" class="nav-link-logo"
-                            alt=""></li>
-                    <li><a href="#home" class="nav-link">HOME</a></li>
-                    <li><a href="#about" class="nav-link">ABOUT</a></li>
-                    <li><a href="#help" class="nav-link">HELP</a></li>
-                    <li><a href="#shope" class="nav-link">SHOPE</a></li>
-                    <li> <a href="#contect" class="nav-link">CONTECT</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header class="header" id="home">
+        <nav id="nav">
+            <div class="navbar flex">
+                <a href="#" class="logo">
+                    <img src="picture\759ada3759e388b28c2299bd66e6b5f4-removebg-preview.png" alt="">
+                    <h2>POWER <span>PLUS</span></h2>
+                </a>
+                <i id="menu-btn" class="fas fa-bars"> </i>
+                <div class="nav-links">
+                    <ul class="flex" id="nav-item">
+                        <i id="cancel-btn" class="fa-solid fa-xmark"></i>
+                        <li><img src="picture\759ada3759e388b28c2299bd66e6b5f4-removebg-preview.png"
+                                class="nav-link-logo" alt=""></li>
+                        <li><a href="#index.html" class="nav-link">HOME</a></li>
+                        <li><a href="#about-us" class="nav-link">ABOUT</a></li>
+                        <li><a href="#help" class="nav-link">HELP</a></li>
+                        <li><a href="#shope" class="nav-link">SHOPE</a></li>
+                        <li> <a href="Contact.html" class="nav-link">CONTECT</a></li>
+                        <a href="login/login.html">
+                            <button>Login</button>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
         <div class="hero">
             <div class="container hero-main">
@@ -52,19 +59,171 @@
         </div>
     </header>
 
+    <!-- about section -->
+    <section class="about" id="about-us">
+        <div class="container about-container flex">
+            <div class="left-img">
+                <img src="./picture/about-img.jpeg">
+            </div>
+            <div class="about-content">
+                <h3>About us</h3>
+                <h4>Every day is chance to become better</h4>
+                <p class="about-des">power plus gym is your ultimate fitness destination,committed to helping you
+                    unleash your inner strength and achieve your wellness goals.</p>
+                <div class="box-wrapper flex">
+                    <div class="box">
+                        <h4><i class="fa-solid fa-check"></i>body workout</h4>
+                        <p>combine cardio and strength exercises for a balanced full-body workout routine</p>
+                    </div>
+                    <div class="box">
+                        <h4><i class="fa-solid fa-check"></i>healthy life</h4>
+                        <p>active movement,nutrient diet,rest and joyful activity ansure wellness</p>
+                    </div>
+                    <div class="box">
+                        <h4><i class="fa-solid fa-check"></i>strength</h4>
+                        <p>inner and outer force enabling endurance,growth and overcoming challenges</p>
+                    </div>
+                    <div class="box">
+                        <h4><i class="fa-solid fa-check"></i>Fitness</h4>
+                        <p>physical and mental state of well-being achieved thtough exercise and lifestyle</p>
+                    </div>
+                </div>
+                <a href="#">
+                    <button>Learn More</button>
+                </a>
+            </div>
+        </div>
+    </section>
 
     <hr>
-    <form action="">
-        <label style="color: white;" id="name">
-            name
-        </label>
-        <input type="text" style="color: black;"><br><br>
-        <label for="" style="color: white;" id="contact">contact</label>
-        <input type="number" style="color: black;"><br><br>
+    <!-- our expert trainer -->
+    <section class="expert">
+        <h2 class="expert-heading">our experts</h2>
+        <div class="container">
+            <div class="expert-wrapper flex">
+                <div class="expert-box">
+                    <img src="./picture/expert1.jpg">
+                    <div class="expert-info">
+                        <span>Expert</span>
+                        <h3>shaun stafford</h3>
+                        <div class="more-info">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="expert-box">
+                    <img src="./picture/expert2.jpg">
+                    <div class="expert-info">
+                        <span>Expert</span>
+                        <h3>Rechaeged</h3>
+                        <div class="more-info">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="expert-box">
+                    <img src="./picture/expert3.jpg">
+                    <div class="expert-info">
+                        <span>Expert</span>
+                        <h3>Brett bartholomew</h3>
+                        <div class="more-info">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="expert-box">
+                    <img src="./picture/expert4.png">
+                    <div class="expert-info">
+                        <span>Expert</span>
+                        <h3>Benjamin Stone</h3>
+                        <div class="more-info">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <input type="submit">
 
-    </form>
+    <hr>
+    <!-- plans section -->
+    <section class="plan">
+        <h2 class="plans-heading">
+            Our Plans
+        </h2>
+        <div class="container">
+            <div class="plan-wrapper">
+                <div class="plan-box">
+                    <h3>Basic plans</h3>
+                    <div class="price">
+                        <span>$</span><sup>25</sup><span>/Mo</span>
+                    </div>
+                    <div class="plan-features">
+                        <li><i class="fa-solid fa-check"></i>Goal Setiing</li>
+                        <li><i class="fa-solid fa-check"></i>Warm-Up</li>
+                        <li><i class="fa-solid fa-check"></i>Strength Training</li>
+                        <li><i class="fa-solid fa-check"></i>Flexiblity</li>
+                        <li><i class="fa-solid fa-check"></i>Rest Days</li>
+                        <li><i class="fa-solid fa-check"></i>Nutrition</li>
+                    </div>
+                    <a href="#" class="plans-btn">
+                        <button>Join Now</button>
+                    </a>
+                </div>
+                <div class="plan-box">
+                    <h3>Affortable plans</h3>
+                    <div class="price">
+                        <span>$<sup>40</sup>/Mo</span>
+                    </div>
+                    <div class="plan-features">
+                        <li><i class="fa-solid fa-check"></i>Planet Fitness</li>
+                        <li><i class="fa-solid fa-check"></i>24 Hour Fitness</li>
+                        <li><i class="fa-solid fa-check"></i>Anytine Fitness</li>
+                        <li><i class="fa-solid fa-check"></i>YMCA</li>
+                        <li><i class="fa-solid fa-check"></i>Snap Fitness</li>
+                        <li><i class="fa-solid fa-check"></i>Recreation centers</li>
+                    </div>
+                    <a href="#" class="plans-btn">
+                        <button>Join Now</button>
+                    </a>
+                </div>
+                <div class="plan-box">
+                    <h3>Premium plans</h3>
+                    <div class="price">
+                        <span>$<sup>95</sup>/Mo</span>
+                    </div>
+                    <div class="plan-features">
+                        <li><i class="fa-solid fa-check"></i>Equinox</li>
+                        <li><i class="fa-solid fa-check"></i>Personal Trainer</li>
+                        <li><i class="fa-solid fa-check"></i>Life Time Fitness</li>
+                        <li><i class="fa-solid fa-check"></i>Gold's VIP</li>
+                        <li><i class="fa-solid fa-check"></i>Sport Clubs</li>
+                        <li><i class="fa-solid fa-check"></i>Rumble boxing</li>
+                    </div>
+                    <a href="#" class="plans-btn">
+                        <button>Join Now</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+ 
 
 
 
